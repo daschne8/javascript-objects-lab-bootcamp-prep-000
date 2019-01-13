@@ -1,6 +1,6 @@
 function Objects(){
-  var recipes  = new Object({chocolate:"all of it"});
-  return recipes;
+  var newObj  = new recipes({chocolate:"all of it"});
+  return newObj;
 }
 function updateObjectWithKeyAndValue(object,key,value){
   var newObject = Object.assign({},object);
